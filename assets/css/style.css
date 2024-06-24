@@ -1,11 +1,48 @@
+:root {
+	/*--font-family: -apple-system, system-ui, sans-serif;*/
+	--font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,Cantarell, "Helvetica Neue", sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--font-family-quote: Palatino;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+	--color-gray-100: #111;
+
+	/*--background-color: #fff;*/
+	--background-color: #F9F7F1;
+
+	--text-color: var(--color-gray-100);
+	/*--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F; */
+	--text-color-decoration: rgba(38, 132, 186, .20);
+	--text-color-decoration-hover: rgba(38, 132, 186, .45);
+
+
+	--syntax-tab-size: 2;
+}
+
+
+
 body {
-	/* font-family: system-ui, sans-serif;
-	-webkit-font-smoothing: antialiased; */
+
+font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+
+
+
+
+
+
+
 	
-	font-family: system-ui, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,Cantarell, "Helvetica Neue", sans-serif;
-	text-rendering: geometricPrecision;
 	line-height:1.5;
-	font-size: 16px;
+	font-size: 15px;
 	
 	max-width:600px; /* 60rem original width */
 	margin:10px auto;
@@ -16,4 +53,31 @@ body {
 
 img {
 	width:100%;
+}
+
+
+a[href] {
+
+	text-decoration-skip-ink: none;
+	text-decoration: underline;
+	/*flex-basis: calc(100% - 1.5rem);*/
+	/*padding-left: .25em;*/
+	/*padding-right: .5em;*/
+	/*text-underline-position: from-font;*/
+	text-underline-offset: -.25em;
+	text-decoration-thickness: .5em;
+	text-decoration-color: var(--text-color-decoration);
+
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	/*color: var(--text-color-link-visited);*/
+}
+a[href]:hover,
+a[href]:active {
+	text-decoration-color: var(--text-color-decoration-hover);
+	text-underline-offset: -.25em;
+	text-decoration-skip-ink: none;
+
+	/*color: var(--text-color-link-active);*/
 }
