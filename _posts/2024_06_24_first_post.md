@@ -1,10 +1,7 @@
 ---
 layout: post
 title: CSS hacks you may not know
-description: This is a collection of short CSS snippets I thought might be useful for beginners
-published: true
-summary: This is a collection of short CSS snippets I thought might be useful for beginners.
-tags: [css]
+date: 2024-06-24
 ---
 
 Related
