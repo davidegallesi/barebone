@@ -35,8 +35,8 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 		
 		{% if forloop.first %}				
 				<!-- year -->
-				<details>
-				<summary>{{ post.date | date: '%Y' }}</summary>				
+		
+				{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
 						<li>{{ post.date | date: '%B' }}							
@@ -48,18 +48,18 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 						</li>						
 						<!-- /month -->	
 					</ul>
-				</details>
+				
 				<!-- /year -->
 				<!-- year -->
-				<details>
-				<summary>{{ post.date | date: '%Y' }}</summary>				
+				
+				{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
 						<li>{{ post.date | date: '%B' }}							
 							<ul>		
 				{% elsif month != nmonth %}
 							</ul>
-						</details>						
+												
 						<!-- /month -->	
 						<!-- month -->
 						<li>{{ post.date | date: '%B' }}							
