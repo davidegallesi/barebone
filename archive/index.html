@@ -33,6 +33,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
 		{% endif %}
 		
+		<details>
 		{% if forloop.first %}				
 				<!-- year -->
 		
@@ -79,5 +80,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				</li>
 				<!-- /year -->		
 	   {% endif %}
+	   		</details>
+
 	{% endfor %}														
 	</ul>
