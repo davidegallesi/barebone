@@ -37,33 +37,32 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				<!-- year -->
 		
 				{{ post.date | date: '%Y' }}				
-					<ul>
+					
 						<!-- month -->
-						<li>{{ post.date | date: '%B' }}							
-							<ul>			
+						{{ post.date | date: '%B' }}							
+										
 		{% else %}
 			<!-- all other posts -->								
 				{% if year != nyear %}	
-							</ul>
-						</li>						
+													
 						<!-- /month -->	
-					</ul>
+					
 				
 				<!-- /year -->
 				<!-- year -->
 				
 				{{ post.date | date: '%Y' }}				
-					<ul>
+					
 						<!-- month -->
-						<li>{{ post.date | date: '%B' }}							
-							<ul>		
+						{{ post.date | date: '%B' }}							
+									
 				{% elsif month != nmonth %}
-							</ul>
+							
 												
 						<!-- /month -->	
 						<!-- month -->
-						<li>{{ post.date | date: '%B' }}							
-							<ul>												
+						{{ post.date | date: '%B' }}							
+																			
 				{% endif %}					
 	   {% endif %}	
 	   
@@ -71,11 +70,8 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	   <!--<li><a href="/{{ post.url }}">{{ post.title }}</a></li> -->
 	   
 	   {% if forloop.last %}
-	  						 </ul>
-						</li>						
+	  											
 						<!-- /month -->	
-					</ul>
-				</li>
 				<!-- /year -->		
 	   {% endif %}
 	{% endfor %}														
