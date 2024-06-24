@@ -18,12 +18,12 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	      {% endif %}
 	    {% endunless %}
 
-	    <select><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></select>
+	    <li><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>-->
 
 
-<ul class="postselectst archive">
+<ul class="postList archive">
 	{% for post in site.posts %}
 	
 		{% if post.next %}		
@@ -39,13 +39,13 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
-						<select>{{ post.date | date: '%B' }}							
+						<li>{{ post.date | date: '%B' }}							
 							<ul>			
 		{% else %}
 			<!-- all other posts -->								
 				{% if year != nyear %}	
 							</ul>
-						</select>						
+						</li>						
 						<!-- /month -->	
 					</ul>
 				
@@ -55,27 +55,27 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
-						<select>{{ post.date | date: '%B' }}							
+						<li>{{ post.date | date: '%B' }}							
 							<ul>		
 				{% elsif month != nmonth %}
 							</ul>
 												
 						<!-- /month -->	
 						<!-- month -->
-						<select>{{ post.date | date: '%B' }}							
+						<li>{{ post.date | date: '%B' }}							
 							<ul>												
 				{% endif %}					
 	   {% endif %}	
 	   
-	   <select><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></select>
-	   <!--<select><a href="/{{ post.url }}">{{ post.title }}</a></select> -->
+	   <li><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
+	   <!--<li><a href="/{{ post.url }}">{{ post.title }}</a></li> -->
 	   
 	   {% if forloop.last %}
 	  						 </ul>
-						</select>						
+						</li>						
 						<!-- /month -->	
 					</ul>
-				</select>
+				</li>
 				<!-- /year -->		
 	   {% endif %}
 	{% endfor %}														
