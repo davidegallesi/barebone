@@ -9,7 +9,27 @@ body {
 	
 	
 	width:700px; /* 60rem original width */
-	margin: 0 auto;
+	margin: 2rem auto;
+	padding: 10px;
 	
 }
 
+
+/* Lists */
+
+li, dd {
+  margin-left: 0em;
+  list-style-position: inside;
+  
+}
+
+.posts li {
+
+	margin-left: 0em;
+
+}
+
+
+li + li, li ol, li ul {
+  margin-top: .1em;
+}
