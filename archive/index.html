@@ -45,10 +45,10 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{% if year != nyear %}	
 							</ul>
 						</li>						
-						<!-- /month -->	
+						 /month 	
 					</ul>
 				</li>
-				<!-- /year -->
+				 /year
 				<!-- year -->
 				<li><a href="/archives.html#{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</a>				
 					<ul>
@@ -58,7 +58,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{% elsif month != nmonth %}
 							</ul>
 						</li>						
-						<!-- /month -->	
+						 /month 	
 						<!-- month -->
 						<li><a href="/archives.html#{{ post.date | date: '%Y-%B' }}">{{ post.date | date: '%B' }}</a>							
 							<ul>												
@@ -69,10 +69,10 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	   {% if forloop.last %}
 	  						 </ul>
 						</li>						
-						<!-- /month -->	
+						 /month 	
 					</ul>
 				</li>
-				<!-- /year -->		
+				 /year	
 	   {% endif %}
 	{% endfor %}														
 	</ul>
