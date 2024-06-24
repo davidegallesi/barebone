@@ -38,7 +38,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				<li>{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
-						<li>{{ post.date | date: '%Y-%B' }}							
+						<li>{{ post.date | date: '%B' }}							
 							<ul>			
 		{% else %}
 			<!-- all other posts -->								
@@ -53,14 +53,14 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				<li> {{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
-						<li>{{ post.date | date: '%Y-%B' }}							
+						<li>{{ post.date | date: '%B' }}							
 							<ul>		
 				{% elsif month != nmonth %}
 							</ul>
 						</li>						
 						<!-- /month -->	
 						<!-- month -->
-						<li>{{ post.date | date: '%Y-%B' }}							
+						<li>{{ post.date | date: '%B' }}							
 							<ul>												
 				{% endif %}					
 	   {% endif %}	
