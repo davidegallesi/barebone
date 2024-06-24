@@ -64,6 +64,13 @@ a[href] {
 	color: var(--text-color-link);
 }
 
+a[href]:menu {
+
+	text-decoration-skip-ink: none;
+	text-decoration: none;
+}
+
+
 a[href]:visited {
 	/*color: var(--text-color-link-visited);*/
 }
