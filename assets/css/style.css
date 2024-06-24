@@ -8,8 +8,6 @@ body {
 	font-size: 13px;
 	
 	
-	display:flex;
-	flex-wrap:wrap;
 	max-width:60rem; /* 60rem original width */
 	margin:2rem auto;
 	padding:1rem;
