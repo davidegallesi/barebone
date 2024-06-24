@@ -5,6 +5,14 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,Cantarell, "Helvetica Neue", sans-serif;
 	text-rendering: geometricPrecision;
 	line-height:1.5;
-	font-size: 17px;
+	font-size: 13px;
 
+}
+
+main {
+	display:flex;
+	flex-wrap:wrap;
+	max-width:60rem; /* 60rem original width */
+	margin:2rem auto;
+	padding:1rem;
 }
