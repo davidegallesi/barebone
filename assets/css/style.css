@@ -5,9 +5,9 @@ body {
 	font-family: system-ui, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,Cantarell, "Helvetica Neue", sans-serif;
 	text-rendering: geometricPrecision;
 	line-height:1.5;
-	font-size: 14px;
+	font-size: 16px;
 	
-	max-width:500px; /* 60rem original width */
+	max-width:600px; /* 60rem original width */
 	margin:10px auto;
 	padding:10px;
 	
