@@ -2,7 +2,7 @@
 layout: post
 date: 2021/10/03
 title: Code block formatting with CSS
-published: false
+published: true
 tags: [jekyll, css]
 ---
 
