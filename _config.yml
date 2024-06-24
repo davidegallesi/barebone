@@ -1,5 +1,6 @@
 name: "marginalia"
 description: "A digital garden"
+title: marginalia
 
 url: 'https://davidegallesi.github.io/barebone' 
 baseurl: ''
