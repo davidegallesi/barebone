@@ -33,7 +33,6 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
 		{% endif %}
 		
-		<details>
 		{% if forloop.first %}				
 				<!-- year -->
 		
@@ -41,13 +40,13 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
-						<li>{{ post.date | date: '%B' }}							
+						{{ post.date | date: '%B' }}							
 							<ul>			
-		{% else %}
+				{% else %}
 			<!-- all other posts -->								
 				{% if year != nyear %}	
 							</ul>
-						</li>						
+												
 						<!-- /month -->	
 					</ul>
 				
@@ -57,14 +56,14 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				{{ post.date | date: '%Y' }}				
 					<ul>
 						<!-- month -->
-						<li>{{ post.date | date: '%B' }}							
+						{{ post.date | date: '%B' }}							
 							<ul>		
 				{% elsif month != nmonth %}
 							</ul>
 												
 						<!-- /month -->	
 						<!-- month -->
-						<li>{{ post.date | date: '%B' }}							
+						{{ post.date | date: '%B' }}							
 							<ul>												
 				{% endif %}					
 	   {% endif %}	
@@ -74,13 +73,11 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	   
 	   {% if forloop.last %}
 	  						 </ul>
-						</li>						
+												
 						<!-- /month -->	
 					</ul>
-				</li>
+				
 				<!-- /year -->		
 	   {% endif %}
-	   		</details>
-
 	{% endfor %}														
 	</ul>
