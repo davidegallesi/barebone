@@ -84,6 +84,13 @@ a[href]:active {
 	/*color: var(--text-color-link-active);*/
 }
 
+.nav{
+padding-top: 1px;
+padding-bottom: 1px;
+border-top: 1px solid;
+border-bottom: 1px solid;;
+}
+
 .nav a[href], header a[href]{
 	text-decoration-skip-ink: none;
 	text-decoration: none;
