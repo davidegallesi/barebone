@@ -77,6 +77,9 @@ a[href]:active {
 	text-decoration-color: var(--text-color-decoration-hover);
 	text-underline-offset: -.25em;
 	text-decoration-skip-ink: none;
+	
+	transition-timing-function:ease-in-out;
+	transition:0.5s;
 
 	/*color: var(--text-color-link-active);*/
 }
@@ -94,5 +97,8 @@ a[href]:active {
 	text-decoration-thickness: .5em;
 	
 	text-decoration-color: var(--text-color-decoration-hover);
+	
+	transition-timing-function:ease-in-out;
+	transition:0.5s;
 }
 
