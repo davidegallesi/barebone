@@ -92,6 +92,13 @@ border-top: 1px solid;
 border-bottom: 1px solid;
 }
 
+.postlist {
+padding-top: 20px;
+padding-bottom: 20px;
+
+
+}
+
 .nav a[href], header a[href]{
 	text-decoration-skip-ink: none;
 	text-decoration: none;
