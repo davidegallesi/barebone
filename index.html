@@ -2,8 +2,20 @@
 layout: default
 ---
 
+<p>
+Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma poiché tutti se ne rendono conto, possiamo ben considerarlo un discorso onesto, non vi pare?
+<br>
+<br>
+<cite>Ryūnosuke Akutagawa – KAPPA</cite>
+</p>
+<br>
+
+
 {% for post in paginator.posts %}
-<section>
+
+
+
+<div class="postlist">
  <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
       {{ post.title }}
     </a> <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
