@@ -48,6 +48,10 @@ img {
 	width:100%;
 }
 
+blockquote{
+	font-family: var(--font-family-quote);
+}
+
 
 a[href] {
 
