@@ -8,10 +8,17 @@ layout: default
         
 <!-- {% if site.disqus-id %} {% include comments.html %} {% endif %} -->
 
-<div class="post-paginate">
+<!--<div class="post-paginate">
 
 	next <a class="next" href="{{site.url}}{{ page.next.url }}"> {{ page.next.title }}</a>
-	<a class="prev" href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title }} </a>previous
+	 | <a class="prev" href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title }} </a>previous
+    
+</div> -->
+
+<div class="post-paginate">
+
+	<a class="next" href="{{site.url}}{{ page.next.url }}"> next </a>{{ page.next.title }}
+	<a class="prev" href="{{site.url}}{{ page.previous.url }}"> previous </a>{{ page.previous.title }}
     
 </div>
 
