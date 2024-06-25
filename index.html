@@ -16,12 +16,13 @@ Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma
 
 
 <div class="postlist">
- <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a> <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span>
-  
+ <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a> <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span>  
   <!--<p>{{ post.excerpt | strip_html | truncate: 250 }}</p> -->
 </div>       
 {% endfor %}
 
+
+<div class="nextprev">
 {% if paginator.previous_page %}
 <a href='{{ site.url }}{{ paginator.previous_page_path }}'>Previous</a>
 {% endif %}
@@ -31,4 +32,4 @@ Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma
 {% if paginator.next_page %}
 <a href='{{ site.url }}{{ paginator.next_page_path }}'>Next</a>
 {% endif %}
-
+</div>
