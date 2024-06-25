@@ -64,10 +64,6 @@ a[href] {
 	color: var(--text-color-link);
 }
 
-.nav a[href]{
-	text-decoration-skip-ink: none;
-	text-decoration: none;
-}
 
 
 a[href]:visited {
@@ -82,3 +78,9 @@ a[href]:active {
 
 	/*color: var(--text-color-link-active);*/
 }
+
+.nav a[href]{
+	text-decoration-skip-ink: none;
+	text-decoration: none;
+}
+
