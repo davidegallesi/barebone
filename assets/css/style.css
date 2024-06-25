@@ -64,8 +64,8 @@ a[href] {
 	color: var(--text-color-link);
 }
 
-.nav a{
-
+.nav a[href]{
+	text-decoration-skip-ink: none;
 	text-decoration: none;
 }
 
