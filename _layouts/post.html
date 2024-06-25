@@ -10,9 +10,20 @@ layout: default
 
 <div class="post-paginate">
 
-		  
-    	<a class="next" href="{{site.url}}{{ page.next.url }}">< {{ page.next.title }}</a>
-		<a class="prev" href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title }} ></a>
+
+{% if paginator.previous_page %}
+<a href='{{site.url}}{{ page.previous.url }}'>{{ page.previous.title }} Previous</a>
+{% endif %}
+
+&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;
+
+{% if paginator.next_page %}
+<a href='{{site.url}}{{ page.next.url }}'>{{ page.next.title }} Next</a>
+{% endif %}
+
+
+    	<!--<p>next</p><a class="next" href="{{site.url}}{{ page.next.url }}"> {{ page.next.title }}</a>
+		<p>previous</p><a class="prev" href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title }} ></a> -->
     
    		
 	</div>
