@@ -81,7 +81,7 @@ a[href]:active {
 	/*color: var(--text-color-link-active);*/
 }
 
-.nav a[href]{
+.nav a[href], header a[href]{
 	text-decoration-skip-ink: none;
 	text-decoration: none;
 }
