@@ -88,6 +88,7 @@ a[href]:active {
 
 .nav a[href]:hover,
 .nav a[href]:active {
+	text-decoration-skip-ink: none;
 	text-decoration: underline;
 	text-decoration-color: var(--text-color-decoration-hover);
 	text-underline-offset: -.25em;
