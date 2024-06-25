@@ -87,6 +87,7 @@ a[href]:active {
 }
 
 .nav a[href]:hover,
+header a [href]: hover,
 .nav a[href]:active {
 	text-decoration-skip-ink: none;
 	text-decoration: underline;
