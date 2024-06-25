@@ -64,7 +64,7 @@ a[href] {
 	color: var(--text-color-link);
 }
 
-.menu a {
+a.menu {
 
 	text-decoration-skip-ink: none;
 	text-decoration: none;
