@@ -110,6 +110,10 @@ border-bottom: 1px solid;
 	transition:0.5s;*/
 }
 
+.architem{
+list-style-type: none;
+}
+
 .meta {
 	color: var(--text-light);
 	font-size: 0.8em;
