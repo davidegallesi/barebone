@@ -16,8 +16,15 @@ layout: default
 </div> -->
 
 <div class="post-paginate">
+{% if paginator.previous_page %}
+<a class="next" href="{{site.url}}{{ page.next.url }}">next </a>{{ page.next.title }}
+{% endif %}
 
-	<a class="next" href="{{site.url}}{{ page.next.url }}">next </a>{{ page.next.title }} — {{ page.previous.title }} <a class="prev" href="{{site.url}}{{ page.previous.url }}"> previous</a>
+{% if paginator.next_page %}
+{{ page.previous.title }} <a class="prev" href="{{site.url}}{{ page.previous.url }}"> previous</a>
+{% endif %}
+
+<!--	<a class="next" href="{{site.url}}{{ page.next.url }}">next </a>{{ page.next.title }} — {{ page.previous.title }} <a class="prev" href="{{site.url}}{{ page.previous.url }}"> previous</a> -->
     
 </div>
 
