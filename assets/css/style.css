@@ -90,10 +90,14 @@ a[href]:active {
 .nav a[href]:active {
 	text-decoration-skip-ink: none;
 	text-decoration: underline;
-	text-decoration-color: var(--text-color-decoration-hover);
-	text-decoration-thickness: .5em;
+	/*flex-basis: calc(100% - 1.5rem);*/
+	/*padding-left: .25em;*/
+	/*padding-right: .5em;*/
+	/*text-underline-position: from-font;*/
 	text-underline-offset: -.25em;
+	text-decoration-thickness: .5em;
 	
+	text-decoration-color: var(--text-color-decoration-hover);
 	/*color: var(--text-color-link-active);*/
 }
 
