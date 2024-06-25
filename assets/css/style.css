@@ -95,8 +95,10 @@ border-bottom: 1px solid;
 .postlist {
 padding-top: 2px;
 padding-bottom: 2px;
+}
 
-
+.intro{
+padding-bottom: 20px;
 }
 
 .nav a[href], header a[href]{
@@ -129,4 +131,6 @@ list-style-type: none;
 
 }
 
-.nextprev{padding-top: 10px;}
+.nextprev{
+padding-top: 20px;
+}
