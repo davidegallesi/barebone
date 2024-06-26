@@ -93,14 +93,7 @@ a[href]:active {
 }
 
 
-.logo {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
-}
+
 
 .nav {
 padding-top: 10px;
@@ -146,6 +139,16 @@ padding-bottom: 20px;
   padding-left: 10px;
 }
 
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+    float: left;
+}
 
 .marginalia{
 float: left;
