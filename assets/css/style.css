@@ -88,8 +88,8 @@ a[href]:active {
 .nav {
 padding-top: 10px;
 padding-bottom: 10px;
-border-top: 1px solid;
-border-bottom: 1px solid;
+/*border-top: 1px solid;
+border-bottom: 1px solid;*/
 }
 
 .postlist {
