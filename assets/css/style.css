@@ -40,8 +40,8 @@ body {
 	font-size: 15px;	
 	max-width:550px; /* 60rem original width */
 	margin:10px auto;
-	padding:10px;
-	
+	padding-left:20px;
+	padding-right:20px;
 }
 
 
@@ -109,6 +109,10 @@ padding-top: 10px;
 padding-bottom: 20px;
 }
 
+.nav{
+
+}
+
 .nav a[href], header a[href]{
 	text-decoration-skip-ink: none;
 	text-decoration: none;
@@ -123,19 +127,24 @@ padding-bottom: 20px;
 }
 
 .nav li {
-  float: left;
+  float: right;
 }
 
 .nav li a {
   display: block;
   text-align: center;
-  padding-right: 10px;
+  padding-left: 10px;
 }
 
 
 .marginalia{
+float: left;
 font-weight: 800;
 font-size: 1.2em;
+}
+
+.marginalia li a {
+padding-left: 0px;
 }
 
 .nav a[href]:hover,
