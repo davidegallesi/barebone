@@ -140,10 +140,10 @@ padding-bottom: 20px;
 }
 
 
-.marginalia{
-float: left;
-font-weight: 800;
-font-size: 1.2em;
+.marginalia {
+	float: left;
+	font-weight: 800;
+	font-size: 1.2em;
 }
 
 .marginalia li a {
