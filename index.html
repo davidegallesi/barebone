@@ -4,23 +4,20 @@ layout: default
 
 
 <div class="intro">
-<p>
-Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma poiché tutti se ne rendono conto, possiamo ben considerarlo un discorso onesto, non vi pare?
-<br>
-<br>
+
+<blockquote>Adesso vi spiego. Quel suo discorso è certo una menzogna, parola per parola; ma poiché tutti se ne rendono conto, possiamo ben considerarlo un discorso onesto, non vi pare?</blockquote>
 <cite>Ryūnosuke Akutagawa – KAPPA</cite>
-</p>
 </div>
 
 
+<b>Ultime cose scritte</b>
 {% for post in paginator.posts %}
 
-
-
 <div class="postlist">
- <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a> <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span>  
+ <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span> <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>{{ post.title }}</a>   
   <!--<p>{{ post.excerpt | strip_html | truncate: 250 }}</p> -->
 </div>       
+
 {% endfor %}
 
 
