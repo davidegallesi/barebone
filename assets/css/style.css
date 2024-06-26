@@ -114,6 +114,27 @@ padding-bottom: 20px;
 	text-decoration: none;
 }
 
+
+.nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  text-align: center;
+  padding-right: 10px;
+}
+
+
+
+
 .nav a[href]:hover,
 .nav a[href]:active {
 	text-decoration-skip-ink: none;
