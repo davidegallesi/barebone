@@ -17,13 +17,13 @@
 
 	/*--background-color: #fff;*/
 	--background-color: #F9F7F1;
-	--text-color: var(--color-gray-100);
+	--text-color: #353D2F;
 	/*--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F; */
 	--textlight:  #3A506B;
-	--text-color-decoration: rgba(38, 132, 186, .20);
-	--text-color-decoration-hover: rgba(38, 132, 186, .45);
+	--text-color-decoration: rgba(38, 132, 186, .30);
+	--text-color-decoration-hover: rgba(38, 132, 186, .55);
 
 
 	--syntax-tab-size: 2;
