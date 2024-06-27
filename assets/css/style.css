@@ -17,13 +17,21 @@
 
 	/*--background-color: #fff;*/
 	--background-color: #F9F7F1;
-	--text-color: #353D2F;
+	--text-color: #353D2F; /*black olive*/
+	/* --text-color: #515B3A; /*dark moss green*/
 	/*--text-color-link: #082840;
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F; */
 	--textlight:  #3A506B;
+	
+	/* Azzurro 
 	--text-color-decoration: rgba(38, 132, 186, .30);
-	--text-color-decoration-hover: rgba(38, 132, 186, .55);
+	--text-color-decoration-hover: rgba(38, 132, 186, .55);*/
+	
+	
+	/* Asparagus */
+	--text-color-decoration: rgba(107, 163, 104, .30);
+	--text-color-decoration-hover: rgba(107, 163, 104, .55);
 
 
 	--syntax-tab-size: 2;
@@ -112,8 +120,25 @@ padding-bottom: 10px;
 }
 
 .postlist {
-padding-top: 0px;
+padding-top: 3px;
 padding-bottom: 3px;
+}
+
+.postlist a[href] {
+	text-decoration-skip-ink: none;
+	text-decoration: none;
+
+}
+
+.postlist a[href]:hover,
+.postlist a[href]:active {
+	text-decoration-skip-ink: none;
+	text-decoration: underline;
+	text-underline-offset: -.25em;
+	text-decoration-thickness: .5em;
+	
+	text-decoration-color: var(--text-color-decoration-hover);
+	
 }
 
 .intro {
@@ -124,7 +149,7 @@ padding-bottom: 50px;
 
 }
 
-.nav a[href], header a[href]{
+.nav a[href], header a[href], .architem a[href] {
 	text-decoration-skip-ink: none;
 	text-decoration: none;
 }
@@ -159,7 +184,8 @@ padding-left: 0px;
 }
 
 .nav a[href]:hover,
-.nav a[href]:active {
+.nav a[href]:active,
+.architem a[href]:hover {
 	text-decoration-skip-ink: none;
 	text-decoration: underline;
 	text-underline-offset: -.25em;
