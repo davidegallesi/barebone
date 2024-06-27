@@ -69,7 +69,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	   {% endif %}	
 	   
 	   <div class="architem">
-		<li> <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></span> <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a></li>
+		<li><a href="{{site.url}}{{ post.url }}">{{ post.title }}</a> · <span class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d" }}</time></span></li>
 	   <!--<li><a href="/{{ post.url }}">{{ post.title }}</a></li> -->
 	   </div>
 	   
