@@ -23,7 +23,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	</ul>-->
 
 <h2>Archive</h2>
-<ul class="postList archive">
+<ul class="archivelist">
 	{% for post in site.posts %}
 	
 		{% if post.next %}		
@@ -37,10 +37,10 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				<!-- year -->
 		
 				
-				{{ post.date | date: '%Y' }}				
+				<b>{{ post.date | date: '%Y' }}</b>				
 					<ul>
 						<!-- month -->
-						{{ post.date | date: '%B' }}							
+						<!-- <i>{{ post.date | date: '%B' }}</i> -->							
 							<ul>			
 				{% else %}
 			<!-- all other posts -->								
@@ -53,17 +53,17 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 				<!-- /year -->
 				<!-- year -->
 				
-				{{ post.date | date: '%Y' }}				
+				<b>{{ post.date | date: '%Y' }}</b>				
 					<ul>
 						<!-- month -->
-						{{ post.date | date: '%B' }}							
+						<!-- <i>{{ post.date | date: '%B' }}</i> -->							
 							<ul>		
 				{% elsif month != nmonth %}
 							</ul>
 												
 						<!-- /month -->	
 						<!-- month -->
-						{{ post.date | date: '%B' }}							
+						<!-- <i>{{ post.date | date: '%B' }}</i> -->							
 							<ul>												
 				{% endif %}					
 	   {% endif %}	

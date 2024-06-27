@@ -158,6 +158,7 @@ padding-bottom: 50px;
 
 .nav{
 
+
 }
 
 .nav a[href], header a[href], .architem a[href] {
@@ -210,6 +211,14 @@ padding-left: 0px;
 
 .architem{
 list-style-type: none;
+}
+
+.archivelist {
+padding-left: 0px;
+}
+
+.archivelist ul {
+padding-left: 10px;
 }
 
 
