@@ -22,7 +22,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 	  {% endfor %}
 	</ul>-->
 
-<h2>Archive</h2>
+<b>Archive</b>
 <ul class="archivelist">
 	{% for post in site.posts %}
 	
@@ -36,8 +36,8 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 		{% if forloop.first %}				
 				<!-- year -->
 		
-				
-				<b>{{ post.date | date: '%Y' }}</b>				
+				<details>
+				<summary>{{ post.date | date: '%Y' }}</summary>				
 					<ul>
 						<!-- month -->
 						<!-- <i>{{ post.date | date: '%B' }}</i> -->							
@@ -49,11 +49,12 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 												
 						<!-- /month -->	
 					</ul>
-				
+				</details>
 				<!-- /year -->
 				<!-- year -->
 				
-				<b>{{ post.date | date: '%Y' }}</b>				
+				<details>
+				<summary>{{ post.date | date: '%Y' }}</summary>				
 					<ul>
 						<!-- month -->
 						<!-- <i>{{ post.date | date: '%B' }}</i> -->							
@@ -64,7 +65,8 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 						<!-- /month -->	
 						<!-- month -->
 						<!-- <i>{{ post.date | date: '%B' }}</i> -->							
-							<ul>												
+							<ul>
+																			
 				{% endif %}					
 	   {% endif %}	
 	   
@@ -78,7 +80,7 @@ https://gist.github.com/tuananh/743255://gist.github.com/tuananh/7432553 -->
 												
 						<!-- /month -->	
 					</ul>
-				
+				</details>
 				<!-- /year -->		
 	   {% endif %}
 	{% endfor %}														
