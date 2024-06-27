@@ -52,6 +52,17 @@ body {
 	padding-right:20px;
 }
 
+
+pre {
+	font-family: var(--font-family-monospace);
+	font-size: 0.95em;
+	padding: 10px;
+	background-color: #F3EFE2;
+	border: 1px solid #F3EFE2;
+	border-radius: 5px;
+	
+
+}
 .content{
 padding-top: 40px;
 }
