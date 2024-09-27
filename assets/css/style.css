@@ -156,8 +156,12 @@ padding-bottom: 3px;
 padding-bottom: 50px;
 }
 
+
+
+
 .nav{
 
+vertical-align: middle;
 
 }
 
@@ -168,8 +172,11 @@ padding-bottom: 50px;
 
 
 .nav ul {
+
+
+	vertical-align: middle;
   list-style-type: none;
-  margin: 0px;
+  margin: auto;
   padding: 0px;
   overflow: hidden;
 }
@@ -184,6 +191,22 @@ padding-bottom: 50px;
   padding-left: 10px;
 }
 
+.zencat{
+	float: left;
+	margin: auto;
+	padding-right: 10px;
+	vertical-align: middle;
+	width: 30px;
+	
+
+
+}
+
+.nav img {
+	
+}
+
+
 
 .marginalia {
 	float: left;
@@ -194,6 +217,7 @@ padding-bottom: 50px;
 .marginalia li a {
 padding-left: 0px;
 }
+
 
 .nav a[href]:hover,
 .nav a[href]:active,

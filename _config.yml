@@ -1,9 +1,9 @@
 name: "marginalia"
-description: "A digital garden"
+description: "Personal random notes"
 title: "marginalia"
 site: "marginalia"
 
-url: 'https://davidegallesi.github.io/barebone' 
+url: 'https://marginalia.cc' 
 baseurl: ''
 
 markdown: kramdown
@@ -27,4 +27,7 @@ destination: ./_site
 sass:
     style: :compressed
     sass_dir: assets/css/
+    
+# exclude:
+#     - _posts/jekyll-export
 

@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}{{ page.shortUrl }}</h2>
+
+{% if page.link %}
+	<h2 class="page-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&nearr;</span></a></h2>
+{% else %}
+	<h2 class="page-title">{{ page.title }}</h2>
+{% endif %}
+
+<!--<h2>{{ page.title }}{{ page.shortUrl }}</h2> -->
 <div class='separator'></div>
      
 <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time></span>     
@@ -17,5 +24,8 @@ layout: default
 <!--	<a class="next" href="{{site.url}}{{ page.next.url }}">next </a>{{ page.next.title }} — {{ page.previous.title }} <a class="prev" href="{{site.url}}{{ page.previous.url }}"> previous</a> -->
     
 </div>
+
+
+
 
 
