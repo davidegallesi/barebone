@@ -1,29 +1,28 @@
 ---
 layout: post
-title: "Elogio della distrazione"
-date: 2024-09-20
+title: "Non distrarsi è bene distrarsi è meglio"
+date: 2024-09-30
 published: true
 ---
 
-> Infinite cose da fare e così poco tempo. [^1]
+> Infinite cose da fare e così poco tempo.
 
-L'altro giorno mi sono lamentato così ad alta voce della quantità di cose da fare che ho accumulato e Anna mi ha incenerito all'istante con un **"Per forza! Ti distrai!"**
+Celebre frase del Joker Jack Nicholson nel Batman di Tim Burton.
+
+L'altro giorno mi sono lamentato così, ad alta voce, di tutte le cose che devo fare e che sembrano non avere fine. Anna mi ha sentito e incenerito all'istante: "per forza accumuli, ti distrai!"
 
 È vero, mi distraggo. Ma distrarsi è una cosa proprio così brutta?
 
-Distrasri e procrastinare, due cose negative che non consentono di essere produttivi. Gia produrre, qualsiasi cosa, contenuti, cose dimcui non abbiamo bisgno, produrre solo per consumare. Ora che i bisogni primari della piramide di Mnslow sonoa posto dobbiamo, possiamo dedicarcimsolo almsuperfluo.
+Secondo la nostra cultura, che tende a polarizzare, si. La distrazione è il polo negativo e la concentrazione quello positivo, la concentrazione produce la distrazione no.
 
-Secondo la nostra cultura, che tende a polarizzare, si. La distrazione è posta al polo negativo e la concentrazione a quello positivo, la concentrazione porta alla conoscenza la distrazione no.
+Distrarsi e procrastinare, due attitudini percepite come negative che non consentono di essere produttivi e di ridurre il cumulo delle *infinite cose da fare*.<!-- Gia produrre, qualsiasi cosa, contenuti, cose di cui non abbiamo bisogno, produrre solo per consumare. Ora che i bisogni primari sono a posto possiamo dedicarci al superfluo. -->
 
 Provo a lanciarmi un salvagente.
 
 Distrarre deriva dal latino *distrahĕre*, *dis* allontanare, separare e *trahĕre* tirare, attirare. Quindi spingere in direzioni diverse o meglio volgere qualcosa (la propria attenzione) in altro uso.
-Mi distraggo quindi perché sono attratto da altro cui intenzionalmente rivolgo la mia attenzione. La concentrazione quindi non scompare ma viene semplicemente rivolta altrove per poi da li magari distrarsi ulteriormente per concentrarsi di nuovo su ciò da cui ci si era distratti.
+Mi distraggo quindi perché in quel momento vengo attratto da altro cui intenzionalmente rivolgo la mia attenzione. La concentrazione quindi non scompare ma viene semplicemente rivolta altrove per poi da li, magari, distrarsi ulteriormente per concentrarsi di nuovo su ciò da cui ci si era distratti.
 
-La distrazione non è quindi altro che uno spostamento della concentrazione all'interno di un processo creativo.
-
-Posso quindi auto assolvermi, ora devo solo convincere Anna.
+La distrazione in realtà non è quindi altro che lo spostamento della concentrazione da un'attività all'altra all'interno di un processo creativo, non è procrastinazione.
 
 
-
-[^1]: Celebre frase del Joker Jack Nicholson nel Batman di Tim Burton
+Perciò, dato che la mia distrazione è tutto sommato cosa buona, posso assolvermi; ora devo solo convincere Anna.
