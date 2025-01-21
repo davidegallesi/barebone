@@ -9,4 +9,4 @@ Just arrived.
 
 Feeding my Tsundoku.
 
-![libri](./img/foto/Image.jpeg)
+![libri](img/foto/Image.jpeg)
