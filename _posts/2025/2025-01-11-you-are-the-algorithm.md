@@ -1,7 +1,7 @@
 ---
 layout: post
 title: You are the algorithm
-date: 2025-01-11
+date: 2025-01-11 23:55
 ---
 
 [This post](https://lmnt.me/blog/range.html) from Louie Mantia resonated with me, RSS is how I mainly use the internet since years. I do have social network accounts but I’m not really a social network person, my [RSS reader](https://netnewswire.com/) is my personal social network where I aggregate the things I’m interested in.
