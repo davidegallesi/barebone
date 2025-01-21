@@ -4,7 +4,7 @@ title: "marginalia"
 site: "marginalia"
 
 # url: 'https://tigro.neocities.org' 
-url: 'https://davidegallesi.github.io/barebone' 
+url: 'https://davidegallesi.github.io/barebone'
 baseurl: '/'
 
 markdown: kramdown
