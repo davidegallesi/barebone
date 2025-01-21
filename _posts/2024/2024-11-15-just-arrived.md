@@ -5,8 +5,6 @@ date: 2024-11-15T23:43
 published: true
 ---
 
-Just arrived-
-
 Feeding my Tsundoku.
 
-![libri](img/foto/Image.jpeg)
+![libri](/img/foto/Image.jpeg)
