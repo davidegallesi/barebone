@@ -3,6 +3,7 @@ description: "Personal random notes"
 title: "marginalia"
 site: "marginalia"
 
+# url: 'https://tigro.neocities.org' 
 url: 'https://davidegallesi.github.io/barebone' 
 baseurl: ''
 
