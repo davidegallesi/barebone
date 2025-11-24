@@ -9,9 +9,10 @@ title: Note
   {% for post in site.tags.note %}
     {% assign auto_title = post.date | date: "%Y-%m-%d %H:%M" %}
     <li>
-      <a href="{{ post.url | relative_url }}">
+      <!-- <a href="{{ post.url | relative_url }}"> -->
         {{ post.title | default: auto_title }}
-      </a>
+		<p>{{ post.excerpt | strip_html | truncate: 250 }}"></p>
+      <!-- </a> -->
     </li>
   {% endfor %}
 </ul>
