@@ -8,7 +8,7 @@ title: Note
 <ul>
   {% for post in site.tags.note %}
     {% assign auto_title = post.date | date: "%Y-%m-%d %H:%M" %}
-	{{ post.title | default: auto_title }}
+	{{ post.title | date: "%Y-%m-%d %H:%M" }}
 	{{post.content}}"
 	<hr>
   {% endfor %}
