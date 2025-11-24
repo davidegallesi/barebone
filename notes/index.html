@@ -11,7 +11,7 @@ title: Note
     
       	<p>
 		{{ post.title | default: auto_title }}
-		{post.content}
+		{{ post.content }}
     	</p>
 		
   {% endfor %}
