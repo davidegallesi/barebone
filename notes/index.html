@@ -11,7 +11,7 @@ title: Note
     {% assign auto_title = post.date | date: "%Y-%m-%d %H:%M" %}
     
 	{{ post.date | date: "%Y-%m-%d %H:%M" }}	
-		{{ post.title | default: auto_title }}
+		<!-- {{ post.title | default: auto_title }}-->
 		{{ post.content }}
 		
   {% endfor %}
