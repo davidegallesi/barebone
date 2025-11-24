@@ -9,9 +9,7 @@ title: Note
   <div class="postlist">
 	
 	  <span class="meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">
-		{{ post.date | date: "%Y-%m-%d @%H:%M" }}	
-        </time>
+		  {{ post.date | date: "%Y-%m-%d @%H:%M" }}	
       </span>
 	
 	  {{ post.content }}
