@@ -3,13 +3,18 @@ layout: default
 title: Note
 ---
 
-<p>Notes</p>
+<h3>Notes</h3>
 
 {% for post in site.tags.note %}
   <div class="postlist">
-	  
-	{{ post.date | date: "%Y-%m-%d @%H:%M" }}	
-	{{ post.content }}
+	
+	  <span class="meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+		{{ post.date | date: "%Y-%m-%d @%H:%M" }}	
+        </time>
+      </span>
+	
+	  {{ post.content }}
 		<hr>
   {% endfor %}
 </div>
