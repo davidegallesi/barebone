@@ -12,8 +12,8 @@ title: Note
     
 	{{ post.date | date: "%Y-%m-%d %H:%M" }}	
 		<!-- {{ post.title | default: auto_title }}-->
-		{{ post.content }}
-		
+	{{ post.content }}
+		<hr>
   {% endfor %}
 </ul>
 </p>
