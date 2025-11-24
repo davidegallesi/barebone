@@ -1,0 +1,17 @@
+---
+layout: default
+title: Note
+---
+
+<h1>Note</h1>
+
+<ul>
+  {% for post in site.tags.note %}
+    {% assign auto_title = post.date | date: "%Y-%m-%d %H:%M" %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | default: auto_title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
